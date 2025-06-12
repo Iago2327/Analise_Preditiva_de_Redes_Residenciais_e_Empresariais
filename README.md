@@ -1,10 +1,18 @@
-# Analise_Preditiva_de_Redes_Residenciais_e_Empresariais
-Projeto de TCC que implementa um sistema de análise preditiva para monitorar redes de computadores, antecipando falhas, congestionamentos e ataques cibernéticos a fim de melhorar a segurança e o desempenho da rede.
+#Análise Preditiva de Redes com Zabbix e Grafana
 
-Docker é uma plataforma de código aberto que automatiza a implantação de aplicações dentro de contêineres de software. Ao isolar uma aplicação e suas dependências, o Docker garante portabilidade e consistência entre diferentes ambientes, revolucionando o ciclo de desenvolvimento e a operação de sistemas.
+Este repositório contém o projeto de Trabalho de Conclusão de Curso (TCC) focado na implementação de uma solução de monitoramento para análise preditiva do comportamento de redes de computadores.
 
-MariaDB é um popular banco de dados relacional de código aberto, criado como uma alternativa direta ao MySQL, focada em oferecer maior velocidade, recursos modernos e um desenvolvimento totalmente comunitário, mantendo máxima compatibilidade.
+O objetivo principal é coletar e analisar métricas de rede para identificar padrões, prever anomalias e otimizar o desempenho, utilizando uma arquitetura moderna e escalável baseada em contêineres.
+🚀 Tecnologias Utilizadas
 
-Grafana é uma plataforma de observabilidade que transforma dados de múltiplas fontes em dashboards e gráficos inteligentes, permitindo a visualização e o monitoramento unificado de métricas, logs e traces de sistemas em um único lugar.
+A solução é composta por um conjunto de ferramentas de código aberto, orquestradas para coletar, armazenar, gerenciar e visualizar os dados.
 
-Zabbix é uma poderosa ferramenta de monitoramento open-source que permite acompanhar a saúde e o desempenho de toda a infraestrutura de TI, desde o hardware até as aplicações, de forma centralizada, automatizada e proativa.
+    Docker: Uma plataforma que usa contêineres para empacotar e isolar as aplicações com suas dependências, garantindo que elas rodem de forma consistente em qualquer lugar.
+
+    Portainer: Uma interface gráfica e intuitiva para simplificar o gerenciamento dos ambientes de contêineres criados com o Docker.
+
+    Zabbix: A poderosa ferramenta de monitoramento que permite acompanhar a saúde e o desempenho de toda a infraestrutura de TI de forma centralizada e proativa.
+
+    MariaDB: Um popular banco de dados relacional de código aberto, utilizado para armazenar de forma robusta todas as métricas coletadas pelo Zabbix.
+
+    Grafana: A plataforma de observabilidade que transforma os dados armazenados em dashboards e gráficos inteligentes, permitindo a visualização e o monitoramento unificado das métricas da rede.
